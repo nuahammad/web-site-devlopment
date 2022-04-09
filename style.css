@@ -1,0 +1,236 @@
+body {
+  background-color: rgb(207, 193, 175);
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  padding: 8px 20px;
+  font-size: 15px;
+}
+.same-button {
+  background-color: rgb(233, 132, 31);
+
+  border: none;
+  color: aliceblue;
+}
+.try-button {
+  margin: 14px;
+}
+nav ul {
+  color: purple;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.menu-item li,
+.menu-item button {
+  border-bottom: 3px solid rgb(233, 132, 31);
+  font-weight: 750;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.banner-section,
+.service-section {
+  padding: 137px 10%;
+  /* border: 2px solid blue; */
+  /* height: 400px; */
+}
+.brand-section {
+  padding: 35px 10%;
+}
+.service-section,
+.consumer-section {
+  padding: 20px 20px;
+}
+
+.service-section {
+  background-color: #b3c8b7;
+}
+.banner-section {
+  padding: 137px 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.black-heading {
+  font-size: 40px;
+  margin: 10px;
+  color: purple;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+.banner-text {
+  display: flex;
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.banner-image {
+  display: flex;
+  align-items: center;
+}
+
+.video-section {
+  background-color: #704f3a;
+  padding: 100px 20px;
+  /* border: 2px solid red; */
+}
+
+.video-content {
+  /* border: 2px solid red; */
+  height: 850px;
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("images/pexels-jose-mueses-1280560.jpg");
+  /* background-image: url("images/pexels-jose-mueses-1280560.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-content h1 {
+  color: yellow;
+  font-size: 51px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.services,
+.consumers {
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.services img {
+  width: 100%;
+}
+
+.img-text {
+  padding: 20px;
+  color: purple;
+}
+.see-text {
+  color: #ff791f;
+  font-size: 16px;
+  font-weight: bold;
+}
+.service {
+  background-color: aliceblue;
+  box-shadow: 10px 10px 30px pink;
+}
+
+.consumer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 232px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+}
+.consumer-one {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("images/customer one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.consumer-two {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("images/customer two.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.consumer-three {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("images/customer\ three\ .jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.consumer h1 {
+  font-size: 29px;
+  margin: 0;
+}
+
+.long-header {
+  font-size: 37px;
+  font-weight: bold;
+  color: purple;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form input {
+  padding: 5px 48px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: 2px solid lightgray;
+  margin-right: 20px;
+}
+.contact-section {
+  margin-top: 50px;
+}
+
+.green-text {
+  color: green;
+  text-align: center;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 305px;
+}
+.get-started {
+  background-color: #ddd3ca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.get-started h1 {
+  color: purple;
+  font-size: 34px;
+}
+footer {
+  padding: 50px 15%;
+}
+.footer-box {
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr);
+  margin-bottom: 50px;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-horizontal {
+  border: 2px solid rgb(71, 61, 61);
+}
